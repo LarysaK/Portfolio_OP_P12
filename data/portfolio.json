@@ -1,20 +1,26 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "ecobliss.png",
+        "title": "EcoBliss",
+        "text": "Intégration de Cypress à mon projet pour renforcer la qualité des tests E2E.",
+        "link": "https://github.com/LarysaK/EcoBlissBath--P10--OP"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "724Events.png",
+        "title": "724Events",
+        "text": "Suivi du cahier de recette et rédaction d'un bilan de campagne de test. Investigation des anomalies. Présentation du bilan de campagne à l'équipe",
+        "link": "https://drive.google.com/drive/folders/1caPSaJ5XWpq2FPk-iUt7iBRZ2-FncY7b?usp=sharing"
     },
     {
-        "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "qwenta.png",
+        "title": "MenuMakerByQwenta",
+        "text": "Découper des fonctionnalités en tâches pour la préparation du développement, mettre en place une méthodologie de veille technologique et méthode Agile",
+        "link": "https://drive.google.com/drive/folders/1SK2NZa-sb3E84Spe0JH0pYjLmbyzO06T?usp=sharing"
+    },
+    {
+        "image": "tomsen.png",
+        "title": "Projet Tomsen",
+        "text": "Conception d'une stratégie de test, revue des exigences et rédaction d'un cahier de recette. Présentation devant l'équipe ainsi que le Product Owner",
+        "link": "https://drive.google.com/drive/folders/1fL37UcMyzZ4VZqRognL9vqypDBODgVKP?usp=sharing"
     }
 ]
