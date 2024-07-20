@@ -1,4 +1,6 @@
 /******* GENERAL *******/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* spacing on all sections */
 #about,
 #skills,
@@ -18,7 +20,7 @@
 }
 
 /* Change the color of navbar links */
-.navbar-dark .navbar-nav .nav-link:hover {
+.nav-link {
     color: #fff; 
 }
 
