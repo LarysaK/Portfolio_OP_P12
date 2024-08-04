@@ -1,6 +1,7 @@
 /******* GENERAL *******/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+body{
+    background-color: rgb(248, 249, 248)!important;
+}
 /* spacing on all sections */
 #skills,
 #portfolio,
@@ -26,6 +27,14 @@
 /* Change the color of navbar links */
 .nav-link {
     color: #fff!important; /*Fixed*/
+}
+
+a:hover{
+    size: 2rem!important;
+}
+
+.navbar-brand {
+    font-size: 2rem!important;  
 }
 
 /* display background dark color on navbar scroll */
@@ -123,6 +132,23 @@
     text-align: center;
 }
 
+.btn-success {
+    transition: transform 0.3s ease!important; /* Adds smooth transition effect */
+}
+
+.btn-success:hover {
+    transform: scale(1.1)!important; /* Scales the button to 110% of its original size */
+}
+
+.card {
+    transition: border 0.3s ease!important; /* Smooth transition for border */
+    border: 2px solid transparent!important; /* Default border style */
+}
+
+.card:hover {
+    border-color: black!important /* Border color on hover */
+}
+
 /* contact */
 .contactColumn {
     display: flex;
@@ -134,3 +160,40 @@
 }
 
 /* footer */
+
+
+/* Mobile Devices (320px - 480px) */
+@media (max-width: 480px) {
+    .hero_title {
+        display: none!important;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem!important;  
+    }
+
+    .hero_desc {
+        font-size: 1rem!important;
+    }
+
+    .imageAboutPage {
+        width: 50%!important;
+        margin-left: 26%!important;
+        margin-bottom: 10%!important;
+    }
+
+    .skillsText.card {
+        height: auto!important;
+    }
+
+    .skillsText img {
+        height: auto!important;
+    }
+
+    .bgimage {
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        height: 50vh!important; 
+    }
+}
+
