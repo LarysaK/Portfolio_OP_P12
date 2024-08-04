@@ -7,7 +7,7 @@ Ce projet vous donne l'opportunité de créer et publier en ligne votre propre p
 * Identification et la correction de bugs;
 * Amélioration de l'accessibilité et des performances du site;
 * Utiliser les Chrome DevTools pour le débogage du site;
-* Respecter les normes d'accessibilité web, en utilisant des outils comme WAVE WebAIM.
+* Respecter les normes d'accessibilité web, en utilisant des outils comme [WAVE WebAIM](https://wave.webaim.org/).
 
 ## Installation du projet de base
 1. Téléchargez ou clonez le dépôt 
