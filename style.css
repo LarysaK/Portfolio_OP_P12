@@ -1,6 +1,6 @@
 /******* GENERAL *******/
 body {
-	background-color: rgb(222, 253, 222) !important;
+	background-color: #E3F2FD !important;
 }
 /* spacing on all sections */
 #skills,
@@ -181,63 +181,82 @@ a {
 
 /* footer */
 
-/* Mobile Devices (320px - 480px) */
-@media (max-width: 480px) {
-	.hero_title {
-		display: none !important;
-	}
 
-	.navbar-brand {
-		font-size: 1.25rem !important;
-	}
+/* For tablets and below */
+@media (max-width: 992px) {
+    /* Adjust hero text size */
 
-	/* Change the color of navbar links */
-	.nav-link {
-		color: #2cf808 !important; /*Fixed*/
-		font-size: 15px !important;
+	.navbar-dark .navbar-toggler {
+		color:  #fff !important; /*Fixed*/
 		filter: contrast(1.75) !important;
+		border-color: #fff !important;
 	}
 
-	.navbar-dark .navbar-brand {
-		color: #2cf808 !important; /*Fixed*/
-		font-size: 20px !important;
-		filter: contrast(1.75) !important;
-	}
 
-	.navbar-toggler {
-		border: 2px solid #2cf808 !important;
-	}
+    #about .col-lg-4 {
+        text-align: center;
+    }
 
-	.contactColumn i {
-		color: #2cf808 !important;
-	}
+    .imageAboutPage {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
 
-	.btn-success {
-		filter: contrast(1.75) !important;
-		background-color: #2cf808 !important;
-	}
+    li {
+        text-align: left; /* Align text to the left for tablets */
+    }
 
-	.hero_desc {
-		font-size: 1rem !important;
-	}
-
-	.imageAboutPage {
-		width: 50% !important;
-		margin-left: 26% !important;
-		margin-bottom: 10% !important;
-	}
-
-	.skillsText.card {
-		height: auto !important;
-	}
-
-	.skillsText img {
-		height: auto !important;
-	}
+    /* Align text center in about section */
+    #about .col-lg-8 {
+        text-align: center;
+		margin-top: 30px!important;
+    }
 
 	.bgimage {
-		background-size: contain !important;
-		background-repeat: no-repeat !important;
-		height: 50vh !important;
-	}
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
 }
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+
+    /* Stack sections in a single column */
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+	.bgimage {
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    /* Contact section */
+    .contactColumn {
+        margin-bottom: 20px;
+    }
+
+    /* Hero text */
+    .hero_title {
+        display: none !important;
+    }
+
+    .hero_desc {
+        font-size: 1.5rem;
+    }
+    
+    /* Make sure images fit well */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
