@@ -19,15 +19,22 @@ function handleNavbarScroll() {
 
 // Function to handle navbar collapse on small devices after a click
 function handleNavbarCollapse() {
-    const navLinks = document.querySelectorAll(".nav-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
+    const bsCollapse = new bootstrap.Collapse(menuToggle, {
+        toggle: false
+    });
 
+    // Get all nav links
+    const navLinks = document.querySelectorAll(".nav-link");
+    
     navLinks.forEach((link) => {
         link.addEventListener("click", () => {
-            const bsCollapse = new bootstrap.Collapse(menuToggle, {
-                toggle: false
-            });
-            bsCollapse.toggle();
+            // Toggle collapse
+            if (bsCollapse._isShown) {
+                bsCollapse.hide();
+            } else {
+                bsCollapse.show();
+            }
         });
     });
 }
@@ -136,3 +143,4 @@ handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+menuResponsiveClic();

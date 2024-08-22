@@ -24,18 +24,10 @@ body {
 	padding-bottom: 4rem;
 }
 
-.nav-link {
-	color: #fff !important; /*Fixed*/
-	filter: contrast(1.75) !important;
-}
-
+.nav-link,
 .navbar-dark .navbar-brand {
-	color: #fff !important; /*Fixed*/
-	filter: contrast(1.75) !important;
-}
-
-a:hover {
-	size: 2rem !important;
+    color: #fff !important; 
+	font-size: 25px;
 }
 
 .navbar-brand {
@@ -44,7 +36,12 @@ a:hover {
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-	background-color: #5b5b5b;
+	background-color: #5b5b5b!important;
+	transition: background-color 0.3s ease!important;
+}
+.nav-link:focus, .nav-link:active {
+    outline: none!important;
+    filter: none!important; /* Avoid contrast changes on click */
 }
 
 /* hero background image */
@@ -110,6 +107,11 @@ a:hover {
 .imageAboutPage {
 	border-radius: 20%;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.col-lg-8 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: black;
 }
 
 /* skills */
@@ -188,10 +190,12 @@ a {
 
 	.navbar-dark .navbar-toggler {
 		color:  #fff !important; /*Fixed*/
-		filter: contrast(1.75) !important;
 		border-color: #fff !important;
 	}
-
+    
+	.hero_title {
+        display: none !important;
+    }
 
     #about .col-lg-4 {
         text-align: center;
