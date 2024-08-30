@@ -1,36 +1,36 @@
 [
     {
-        "image": "ecobliss.png",
+        "image": "ecobliss.webp",
         "title": "EcoBliss",
         "text": "Intégration de Cypress pour renforcer la qualité des tests E2E : analyser les besoins en automatisation de tests, automatiser des tests via des scripts, rédiger un bilan de tests automatisés",
         "link": "https://github.com/LarysaK/EcoBlissBath--P10--OP"
     },
     {
-        "image": "724Events.png",
+        "image": "724Events.webp",
         "title": "724Events",
         "text": "Mener une campagne de tests complète sur le site web en développement d’une agence d'événementiel. Analyser en détail les anomalies et rédigerez un rapport complet.",
         "link": "https://drive.google.com/drive/folders/1caPSaJ5XWpq2FPk-iUt7iBRZ2-FncY7b?usp=sharing"
     },
     {
-        "image": "qwenta.png",
+        "image": "qwenta.webp",
         "title": "Qwenta",
         "text": "Découper des fonctionnalités en tâches pour la préparation du développement, mettre en place une méthodologie de veille technologique et méthode Agile",
         "link": "https://drive.google.com/drive/folders/1SK2NZa-sb3E84Spe0JH0pYjLmbyzO06T?usp=sharing"
     },
     {
-        "image": "tomsen.png",
+        "image": "tomsen.webp",
         "title": "Tomsen",
         "text": "Conception d'une stratégie de test, revue des exigences et rédaction d'un cahier de recette. Présentation devant l'équipe ainsi que le Product Owner",
         "link": "https://drive.google.com/drive/folders/1fL37UcMyzZ4VZqRognL9vqypDBODgVKP?usp=sharing"
     },
     {
-        "image": "booki.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Développement d'un site WEB qui permettent aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Integration l'interface avec du code HTML et CSS",
         "link": "https://github.com/LarysaK/Booki--P3--OP"
     },
     {
-        "image": "Kasa.png",
+        "image": "Kasa.webp",
         "title": "Kasa",
         "text": "Implémenter le front-end, développer la logique de présentation des données en utilisant React. Utiliserez React pour créer des composants et React Router pour la navigation.",
         "link": "https://github.com/LarysaK/Kasa--P7-OC"
